@@ -12,7 +12,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: white;
     width: 100%; 
     border-radius: 3px; 
 }
@@ -28,14 +28,14 @@ li:last-child {
 
 li a {
     display: block;
-    color: red;
+    color: black;
     margin-top: 32px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Bowlby One SC', cursive;
 
 }
 
@@ -44,7 +44,7 @@ p {
     margin-right: 20px;
     margin-left: 10px;
     font-size: x-large;
-    font-family: sans-serif;
+    font-family: 'Bowlby One SC', cursive;
     color: black; 
 
 }
@@ -71,7 +71,7 @@ button a {
     color: white; 
     text-decoration: none;
     font-size:medium;
-    font-family: sans-serif;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 
@@ -93,7 +93,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
-    font-family: sans-serif;
+   font-family: 'Bowlby One SC', cursive;
 
 }
 

@@ -4,7 +4,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 var mongoose = require("mongoose");
 const path = require('path');
-//var axios = require("axios");
+var axios = require("axios");
 
 
 // require models
@@ -40,6 +40,8 @@ app.use(express.static("public"));
 
 // connect to mongo database
 mongoose.connect("mongodb://localhost/scraper");
+
+
 
 // start server
 app.listen(PORT, function () {
