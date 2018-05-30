@@ -1,0 +1,34 @@
+<!-- Navbar -->
+<div class="navbar">
+    <ul>
+        <li>
+            <p>Mongo Cheerio Scraper</p>
+        </li>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Saved Articles</a>
+        </li>
+        <button class="scrape-button">
+            <a href="/scrape">Scrape New Articles</a>
+        </button>
+    </ul>
+</div>
+
+<!-- Header Image -->
+<div class="header-image">
+    <img src="images/coffee.jpg">
+
+    <div class="image-text">
+        <h1>Mongo Cheerio Scraper</h1>
+    </div>
+</div>
+<!-- header image -->
+
+<!-- Contains scraped articles -->
+<div id="article-container">
+    {{#each article}}
+    <!-- name of article json array-->
+    <h2>{{headline}}</h2>
+    {{/each}}

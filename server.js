@@ -4,6 +4,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 var mongoose = require("mongoose");
 const path = require('path');
+//var axios = require("axios");
 
 
 // require models
@@ -17,6 +18,7 @@ var app = express();
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static("public"));
 
 // routes
 
