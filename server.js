@@ -22,7 +22,7 @@ app.use(express.static("public"));
 
 // routes
 
-const scrape = require("./routes/scrape.js");
+const scrape = require("./routes/scrap.js");
 const handlebars = require("./routes/handlebars.js")
 
 app.use("/", scrape);
